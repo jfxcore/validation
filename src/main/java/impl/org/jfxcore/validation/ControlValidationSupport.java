@@ -80,8 +80,8 @@ public final class ControlValidationSupport {
         }
     }
 
-    public static synchronized void setInputNodeAttachment(
-            Class<Node> nodeClass, Function<Node, ? extends UserInputNode> attachment) {
+    public static synchronized <T extends Node> void setInputNodeAttachment(
+            Class<T> nodeClass, Function<T, ? extends UserInputNode> attachment) {
         for (int i = 0; i < nodes.size(); ++i) {
             if (nodes.get(i).nodeClass() == nodeClass) {
                 if (attachment != null) {
