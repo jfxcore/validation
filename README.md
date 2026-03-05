@@ -279,8 +279,8 @@ The data validation framework adds five CSS pseudo-classes that can be used to s
 | `:validating` | Selects an element that is currently validating | `ConstrainedProperty.validatingProperty()` |
 | `:invalid` | Selects an element that failed data validation | `ConstrainedProperty.invalidProperty()` |
 | `:valid` | Selects an element that successfully completed data validation | `ConstrainedProperty.validProperty()` |
-| `:user-invalid` | Selects an element that failed data validation after the user has interacted with it, for example by typing or clicking | `ConstrainedProperty.userInvalidProperty()` |
-| `:user-valid` | Selects an element that successfully completed data validation after the user has interacted with it, for example by typing or clicking | `ConstrainedProperty.userValidProperty()` |
+| `:user‑invalid` | Selects an element that failed data validation after the user has interacted with it, for example by typing or clicking | `ConstrainedProperty.userInvalidProperty()` |
+| `:user‑valid` | Selects an element that successfully completed data validation after the user has interacted with it, for example by typing or clicking | `ConstrainedProperty.userValidProperty()` |
 
 # Releases
 The latest release is available on [Maven Central](https://central.sonatype.com/artifact/org.jfxcore/validation/0.1.0).
