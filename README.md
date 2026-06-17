@@ -1,5 +1,9 @@
 # JFXcore.validation
 
+> JFXcore.validation is free software, licensed under [GPL v2 with the Classpath exception](LICENSE).
+> This allows linking this library with non-GPL-licensed modules to produce an executable, and to distribute
+> that executable under a license of your choice.
+
 JFXcore.validation is a data validation framework that enables applications to validate user input, and to visualize
 the validation state via CSS. Data validation ensures correctness and consistency of data in a JavaFX application by
 specifying data constraints: a value that satisfies all constraints is *valid* and can be used for further processing;
